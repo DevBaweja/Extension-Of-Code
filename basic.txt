@@ -1,0 +1,15 @@
+npm i generator-code -g
+npm i yo -g
+
+npm cache clear --force
+
+npm config get cache
+npm config get prefix
+
+
+npm config set cache C:\Users\myname\AppData\Roaming\npm-cache
+npm config set prefix C:\Users\myname\AppData\Roaming\npm
+
+For global packages
+Add to PATH
+C:\Users\{name}\AppData\Roaming\npm
